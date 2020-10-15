@@ -150,10 +150,19 @@ body {
 /* Media Query */
 
 @media screen and (min-width: 780px) {
+  /* .menu__section.right {
+    
+  } */
   .content {
     padding-top: 120px;
   }
   .content__logo {
     height: 96px;
+  }
+  .menu__section.left {
+    display: none;
+  }
+  .footer__section {
+    font-size: 20px;
   }
 }
